@@ -1,0 +1,536 @@
+week,day_id,day,mainMuscle,exercise,substitutionOption1,substitutionOption2,notes,repsWorkingSet1,minRestMinutes,maxRestMinutes,minWarmUpSets,maxWarmUpSets,workingSets,minRPE,maxRPE,repsWorkingSet2,repsWorkingSet3,minReps,maxReps,timeSeconds,amrap,hold
+1,1,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,3,5,,FALSE,FALSE
+1,1,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,8,9,,,10,10,,FALSE,FALSE
+1,1,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+1,1,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,9,10,,,12,15,,FALSE,FALSE
+1,1,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+1,1,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+1,1,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+1,1,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+1,2,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+1,2,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+1,2,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+1,2,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,9,10,,,10,12,,FALSE,FALSE
+1,2,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+1,2,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+1,2,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,3,9,10,,,6,8,,FALSE,FALSE
+1,2,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+1,3,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+1,3,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat," Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,8,9,,,5,5,,FALSE,FALSE
+1,3,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+1,3,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,8,9,,,10,10,,FALSE,FALSE
+1,3,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,3,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,10,12,,FALSE,FALSE
+1,3,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,4,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,3,8,9,5,12,,,,FALSE,FALSE
+1,4,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+1,4,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,3,8,9,,,6,8,,FALSE,FALSE
+1,4,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,4,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+1,4,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,9,10,,,15,20,,FALSE,FALSE
+1,4,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+1,5,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,3,8,9,,,12,15,,FALSE,FALSE
+1,5,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+1,5,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+1,5,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,5,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,5,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+1,6,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,8,9,,,5,5,,FALSE,FALSE
+1,6,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,8,9,,,8,8,,FALSE,FALSE
+1,6,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,4,8,9,,,10,12,,FALSE,FALSE
+1,6,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+1,6,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+1,6,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,15,20,,FALSE,FALSE
+1,6,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,3,9,10,,,10,20,,FALSE,FALSE
+2,7,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,3,5,,FALSE,FALSE
+2,7,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,8,9,,,10,10,,FALSE,FALSE
+2,7,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+2,7,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,9,10,,,12,15,,FALSE,FALSE
+2,7,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+2,7,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+2,7,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+2,7,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+2,8,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+2,8,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+2,8,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+2,8,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,9,10,,,10,12,,FALSE,FALSE
+2,8,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+2,8,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+2,8,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,3,9,10,,,6,8,,FALSE,FALSE
+2,8,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+2,9,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,8,9,,,3,5,,FALSE,FALSE
+2,9,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat," Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,8,9,,,5,5,,FALSE,FALSE
+2,9,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+2,9,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,8,9,,,10,10,,FALSE,FALSE
+2,9,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,9,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,10,12,,FALSE,FALSE
+2,9,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,10,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,3,8,9,5,12,,,,FALSE,FALSE
+2,10,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+2,10,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,3,8,9,,,6,8,,FALSE,FALSE
+2,10,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,10,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+2,10,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,9,10,,,15,20,,FALSE,FALSE
+2,10,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+2,11,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,3,8,9,,,12,15,,FALSE,FALSE
+2,11,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+2,11,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+2,11,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,11,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,11,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+2,12,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,8,9,,,4,4,,FALSE,FALSE
+2,12,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,8,9,,,8,8,,FALSE,FALSE
+2,12,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,4,8,9,,,10,12,,FALSE,FALSE
+2,12,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+2,12,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+2,12,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,15,20,,FALSE,FALSE
+2,12,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,3,9,10,,,10,20,,FALSE,FALSE
+3,13,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+3,13,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,8,9,,,10,10,,FALSE,FALSE
+3,13,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+3,13,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,9,10,,,12,15,,FALSE,FALSE
+3,13,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+3,13,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+3,13,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+3,13,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+3,14,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+3,14,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+3,14,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+3,14,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,9,10,,,10,12,,FALSE,FALSE
+3,14,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+3,14,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+3,14,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,3,9,10,,,6,8,,FALSE,FALSE
+3,14,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+3,15,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,8,9,,,4,6,,FALSE,FALSE
+3,15,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat,"Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,8,9,,,5,5,,FALSE,FALSE
+3,15,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+3,15,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,8,9,,,10,10,,FALSE,FALSE
+3,15,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,15,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,10,12,,FALSE,FALSE
+3,15,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,16,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,3,8,9,5,12,,,,FALSE,FALSE
+3,16,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+3,16,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,3,8,9,,,6,8,,FALSE,FALSE
+3,16,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,16,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+3,16,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,9,10,,,15,20,,FALSE,FALSE
+3,16,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+3,17,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,3,8,9,,,12,15,,FALSE,FALSE
+3,17,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+3,17,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+3,17,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,17,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,17,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+3,18,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,8,9,,,3,3,,FALSE,FALSE
+3,18,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,8,9,,,8,8,,FALSE,FALSE
+3,18,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,4,8,9,,,10,12,,FALSE,FALSE
+3,18,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+3,18,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+3,18,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,15,20,,FALSE,FALSE
+3,18,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,3,9,10,,,10,20,,FALSE,FALSE
+4,19,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+4,19,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,8,9,,,10,10,,FALSE,FALSE
+4,19,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+4,19,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,9,10,,,12,15,,FALSE,FALSE
+4,19,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+4,19,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+4,19,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+4,19,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+4,20,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+4,20,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+4,20,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+4,20,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,9,10,,,10,12,,FALSE,FALSE
+4,20,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+4,20,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+4,20,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,3,9,10,,,6,8,,FALSE,FALSE
+4,20,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+4,21,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,8,9,,,3,5,,FALSE,FALSE
+4,21,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat," Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,8,9,,,5,5,,FALSE,FALSE
+4,21,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+4,21,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,8,9,,,10,10,,FALSE,FALSE
+4,21,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,21,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,10,12,,FALSE,FALSE
+4,21,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,22,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,3,8,9,5,12,,,,FALSE,FALSE
+4,22,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+4,22,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,3,8,9,,,6,8,,FALSE,FALSE
+4,22,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,22,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+4,22,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,9,10,,,15,20,,FALSE,FALSE
+4,22,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+4,23,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,3,8,9,,,12,15,,FALSE,FALSE
+4,23,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+4,23,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+4,23,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,23,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,23,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+4,24,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,8,9,,,2,2,,FALSE,FALSE
+4,24,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,8,9,,,8,8,,FALSE,FALSE
+4,24,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,4,8,9,,,10,12,,FALSE,FALSE
+4,24,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+4,24,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+4,24,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,15,20,,FALSE,FALSE
+4,24,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,3,9,10,,,10,20,,FALSE,FALSE
+5,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,3,5,,FALSE,FALSE
+5,0,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,8,9,,,10,10,,FALSE,FALSE
+5,0,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+5,0,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,9,10,,,12,15,,FALSE,FALSE
+5,0,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+5,0,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+5,0,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+5,0,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+5,0,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+5,0,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+5,0,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+5,0,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,9,10,,,10,12,,FALSE,FALSE
+5,0,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+5,0,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,9,10,,,12,15,,FALSE,FALSE
+5,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,3,9,10,,,6,8,,FALSE,FALSE
+5,0,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,10,10,,,10,12,,FALSE,FALSE
+5,0,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+5,0,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat," Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,8,9,,,5,5,,FALSE,FALSE
+5,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,3,8,9,,,8,10,,FALSE,FALSE
+5,0,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,8,9,,,10,10,,FALSE,FALSE
+5,0,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,10,12,,FALSE,FALSE
+5,0,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,3,8,9,5,12,,,,FALSE,FALSE
+5,0,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+5,0,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,3,8,9,,,6,8,,FALSE,FALSE
+5,0,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",,1,2,1,1,3,9,10,,,,,,FALSE,FALSE
+5,0,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,9,10,,,15,20,,FALSE,FALSE
+5,0,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+5,0,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,3,8,9,,,12,15,,FALSE,FALSE
+5,0,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+5,0,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,3,8,9,,,10,12,,FALSE,FALSE
+5,0,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,3,9,10,,,10,12,,FALSE,FALSE
+5,0,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,8,9,,,1,1,,FALSE,FALSE
+5,0,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,8,9,,,8,8,,FALSE,FALSE
+5,0,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,4,8,9,,,10,12,,FALSE,FALSE
+5,0,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+5,0,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,3,9,10,,,8,10,,FALSE,FALSE
+5,0,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,4,9,10,,,15,20,,FALSE,FALSE
+5,0,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,3,9,10,,,10,20,,FALSE,FALSE
+6,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,7,7,,,3,5,,FALSE,FALSE
+6,0,Push #1,Pectorals,Larsen Press,"DB Bench Press 
+(No Leg Drive)","Machine Chest Press 
+(No Leg Drive)",Shoulder blades still retracted and depressed. Slight arch in upper back. Zero leg drive.,,3,4,0,0,2,7,7,,,10,10,,FALSE,FALSE
+6,0,Push #1,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,2,7,7,,,8,10,,FALSE,FALSE
+6,0,Push #1,Pectorals,A1. Press-Around,DB Flye,Deficit Push Up,"Brace with your non-working arm, squeeze your pecs by pressing the cable across your body",,0,0,1,1,2,8,8,,,12,15,,FALSE,FALSE
+6,0,Push #1,Pectorals,A2. Pec Static Stretch 30s,,,Hold a pec stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+6,0,Push #1,Shoulders,Cross-Body Cable Y-Raise (Side Delt),DB Lateral Raise,Machine Lateral Raise,"Think about swinging the cable out and up as if ""drawing a sword"" from your side",,1,2,1,1,2,8,8,,,12,15,,FALSE,FALSE
+6,0,Push #1,Triceps,Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension,"Triceps Pressdown
+(12-15 reps)","DB Skull Crusher
+(12-15 reps)","Do the second half of the ROM for pressdowns (""the squeeze"") and the first half of the ROM for overhead extensions (""the stretch"")",,1,2,1,1,2,8,8,,,,,,FALSE,FALSE
+6,0,Push #1,Triceps,N1-Style Cross-Body Triceps Extension,Single-Arm Tricep Pressdown,Single-Arm Cable Tricep Kickback,Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso,,1,2,0,0,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Pull #1,Back,Lat Pulldown (Feeder Sets),Machine Pulldown,Pull-Up,Do 4 feeder sets of 10 reps by gradually building the weight up from set to set. Set 1 is pretty light (RPE 4-5). Set 2 is a little heavier (RPE 6-7). Set 3 is a little heavier again (RPE 7-8). Set 4 is your hard set: try to hit failure at 10 reps on this last set.,,2,3,0,0,4,,,,,10,10,,FALSE,FALSE
+6,0,Pull #1,Back,Lat Pulldown (Failure Set),Machine Pulldown,Pull-Up,"After hitting failure at ~10 reps, do a dropset. Strip the weight back ~30-50% and do another 5 reps with nice and controlled technique",,2,3,0,0,1,10,10,,,,,,FALSE,FALSE
+6,0,Pull #1,Back,Omni-Grip Machine Chest-Supported Row,Incline Chest-Supported DB Row,Cable Seated Row,Use 3 different grips for the 3 working sets (ideally going from wider to closer),,2,3,2,2,3,7,7,,,10,12,,FALSE,FALSE
+6,0,Pull #1,Back,A1. Bottom-Half DB Lat Pullover,Cable Lat Pullover,1-Arm Lat Pull-In,"Do DB lat pullovers, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,0,0,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Pull #1,Back,A2. Lat Static Stretch 30s,,,Hold a lat stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+6,0,Pull #1,Rear delts,Omni-Direction Face Pull,Reverse Cable Flye,Bent-Over Reverse DB Flye,"1st set: low-to-high
+2nd set: mid-range
+3rd set: high-to-low",,1,2,1,1,3,8,8,,,12,15,,FALSE,FALSE
+6,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Focus on contracting your biceps, minimize torso momentum",,1,2,1,1,2,8,8,,,6,8,,FALSE,FALSE
+6,0,Pull #1,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Legs #1,Quads,Squat,Hack Squat,DB Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,4,3,4,1,7,7,,,1,3,,FALSE,FALSE
+6,0,Legs #1,Quads,Pause Squat (Back off),Pause Hack Squat,Pause DB Bulgarian Split Squat," Drop the weight by ~25% from your top set. 2 second pause. Sit back and down, keep your upper back tight to the bar",,3,4,0,0,2,7,7,,,5,5,,FALSE,FALSE
+6,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,2,3,2,2,2,7,7,,,8,10,,FALSE,FALSE
+6,0,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,7,7,,,10,10,,FALSE,FALSE
+6,0,Legs #1,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Legs #1,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Push #2,Pectorals,Close-Grip Barbell Incline Press,Close-Grip DB Incline Press,Close-Grip Machine Press,Use ~45° incline and a grip width just outside shoulder width,8,3,4,2,3,2,7,7,5,,,,,FALSE,FALSE
+6,0,Push #2,Shoulders,Machine Shoulder Press,Seated DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,2,7,7,,,10,12,,FALSE,FALSE
+6,0,Push #2,Triceps,Floor Skull Crusher (Heavy),DB Floor Skull Crusher,Overhead Cable Triceps Extension,"Arc the bar behind your head, allow the bar to come to a dead stop on the floor between reps",,1,2,1,1,2,7,7,,,6,8,,FALSE,FALSE
+6,0,Push #2,Pectorals,Bent-Over Cable Pec Flye,Pec Deck,DB Flye,Squeeze your pecs together at the top and feel a big stretch at the bottom,,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Push #2,Shoulders,"Eccentric-Accentuated Cable Lateral Raise, Constant-Tension Cable Lateral Raise",DB Lateral Raise,Machine Lateral Raise,"First 5 reps: 5-second lowering phase, last 15 reps constant tension (no pausing at the bottom or top)",5,1,2,1,1,2,8,8,15,,,,,FALSE,FALSE
+6,0,Push #2,Shoulders,Plate Front Raise,DB Front Raise,Cable Front Raise,Turn one side up like a steering wheel as you lift the plate,,1,2,1,1,2,8,8,,,15,20,,FALSE,FALSE
+6,0,Push #2,Biceps,Diamond Push Up,Close-Grip Push Up,Kneeling Modified Push Up,Place your hands close together on the ground so that they form a diamond shape and do as many pushups as possible with a smooth tempo,,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+6,0,Pull #2,Back,1-Arm Half-Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,2,7,7,,,12,15,,FALSE,FALSE
+6,0,Pull #2,Back,Pull-Up (1 AMRAP set),"Lat Pulldown
+(8-15 rep AMRAP)",Machine Pulldown,"1.5x shoulder width grip, pull your chest to the bar",,2,3,2,2,1,10,10,,,,,,TRUE,FALSE
+6,0,Pull #2,Back,Kroc Row,Single-Arm DB Row,Meadows Row,Kroc rows are basically just a dumbbell row with mild cheating and a slightly more upright posture. Don't be afraid to go heavy and use straps if your grip is limiting,,2,3,2,2,2,7,7,,,10,12,,FALSE,FALSE
+6,0,Pull #2,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Pull #2,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Pull #2,Biceps,N1-Style Cross-Body Cable Bicep Curl,DB Incline Curl,DB Curl,Curl across your body with your arm out to the side at ~60°,,1,2,1,1,2,8,8,,,10,12,,FALSE,FALSE
+6,0,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,5,3,4,1,5,6,,,4,4,,FALSE,FALSE
+6,0,Legs #2,Hamstrings,Stiff-Leg Deadlift,Barbell RDL,DB RDL,Think about doing a high-hip conventional deadlift with a slight bend in the knees,,3,4,0,0,2,7,7,,,8,8,,FALSE,FALSE
+6,0,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,2,7,7,,,10,12,,FALSE,FALSE
+6,0,Legs #2,Glutes,Glute Ham Raise,Nordic Ham Curl,Lying Leg Curl,"Keep your hips straight, do Nordic ham curls if no GHR machine",,1,2,1,1,2,8,8,,,8,10,,FALSE,FALSE
+6,0,Legs #2,Quads,Slow-Eccentric Leg Extension,DB Step-Up,Goblet Squat,Control the weight with a 3-4 second negative,,1,2,1,1,2,8,8,,,8,10,,FALSE,FALSE
+6,0,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,2,8,8,,,15,20,,FALSE,FALSE
+6,0,Legs #2,Abs,Roman Chair Leg Raise,Hanging Leg Raise,Reverse Crunch,"Don't swing your legs at the bottom, minimize momentum, tuck your knees towards your chest if lifting your legs straight out is too challenging",,1,2,1,1,2,8,8,,,10,20,,FALSE,FALSE
+7,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+7,0,Push #1,Pectorals,High-Incline Smith Machine Press,Incline DB Press,Incline Machine Press,"Set the bench at a 45-60° incline, touch the bar to your upper chest with control",,3,4,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Push #1,Shoulders,Egyptian Cable Lateral Raise,DB Lateral Raise,Machine Lateral Raise,Lean away from the cable. Focus on squeezing your delts.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Push #1,Triceps,Overhead Cable Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Push #1,Triceps,Cable Triceps Kickback,DB Triceps Kickback,Triceps Pressdown,"Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)",,2,3,1,1,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Pull #1,Back,Neutral-Grip Lat Pulldown,Neutral-Grip Pull-Up,Machine Pulldown,Pull your elbows down against your sides,,3,4,3,3,3,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #1,Back,Pendlay Row,Meadows Row,Single-Arm Row,"Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #1,Biceps,Hammer Cheat Curl,Inverse Zottman Curl,DB Curl,"You can use slight momentum on the concentric, but control the eccentric with your elbows stationary",,0,0,1,1,1,10,10,,,4,6,,FALSE,FALSE
+7,0,Legs #1,Quads,Squat or Machine Squat,Machine Squat,Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+7,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Legs #1,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Legs #1,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Legs #1,Abs,Cable Crunch,Plate-Weighted Crunch,Machine Crunch,Round your back as you crunch,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Push #2,Shoulders,Seated DB Shoulder Press,Machine Shoulder Press,Standing DB Arnold Press,"Bring the dumbbells all the way down, keep your torso upright",,3,4,3,3,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Push #2,Pectorals,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Push #2,Shoulders,Machine Lateral Raise,DB Lateral Raise,Cable Lateral Raise,Focus on squeezing your lateral delt to move the weight,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #2,Back,Wide-Grip Pull-Up,Wide-Grip Lat Pulldown,Machine Pulldown,Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #2,Back,Close-Grip Seated Cable Row,T-Bar Row,Incline Chest-Supported DB Row,"Focus on squeezing your shoulder blades together, drive your elbows down and back.",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #2,Traps,Machine Shrug,Cable Shrug-In,DB Shrug,Shrug up and in. Pull your shoulders up to your ears.,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #2,Biceps,Alternating DB Curl,EZ Bar Curl,Cable Curl,"Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm.",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Pull #2,Biceps,1-Arm DB Preacher Curl,Spider Curl,Bayesian Cable Curl,"Here, do all 6-8 reps with one arm at a time (do not alternate)",,0,0,1,1,1,10,10,,,6,8,,FALSE,FALSE
+7,0,Legs #2,Quads,Hack Squat,Machine Squat,Bulgarian Split Squat,"Allow your knees to come forward (past your toes), focus the tension on your quads",,3,5,3,4,2,9,10,,,4,6,,FALSE,FALSE
+7,0,Legs #2,Quads,Dumbbell Walking Lunge,DB Step-Up,Goblet Squat,Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Legs #2,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+7,0,Legs #2,Calves,Standing Calf Raise,Seated Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+7,0,Legs #2,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+8,0,Push #1,Pectorals,High-Incline Smith Machine Press,Incline DB Press,Incline Machine Press,"Set the bench at a 45-60° incline, touch the bar to your upper chest with control",,3,4,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Push #1,Shoulders,Egyptian Cable Lateral Raise,DB Lateral Raise,Machine Lateral Raise,Lean away from the cable. Focus on squeezing your delts.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Push #1,Triceps,Overhead Cable Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Push #1,Triceps,Cable Triceps Kickback,DB Triceps Kickback,Triceps Pressdown,"Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)",,2,3,1,1,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Pull #1,Back,Neutral-Grip Lat Pulldown,Neutral-Grip Pull-Up,Machine Pulldown,Pull your elbows down against your sides,,3,4,3,3,3,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #1,Back,Pendlay Row,Meadows Row,Single-Arm Row,"Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #1,Biceps,Hammer Cheat Curl,Inverse Zottman Curl,DB Curl,"You can use slight momentum on the concentric, but control the eccentric with your elbows stationary",,0,0,1,1,1,10,10,,,4,6,,FALSE,FALSE
+8,0,Legs #1,Quads,Squat or Machine Squat,Machine Squat,Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+8,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Legs #1,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Legs #1,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Legs #1,Abs,Cable Crunch,Plate-Weighted Crunch,Machine Crunch,Round your back as you crunch,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Push #2,Shoulders,Seated DB Shoulder Press,Machine Shoulder Press,Standing DB Arnold Press,"Bring the dumbbells all the way down, keep your torso upright",,3,4,3,3,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Push #2,Pectorals,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Push #2,Shoulders,Machine Lateral Raise,DB Lateral Raise,Cable Lateral Raise,Focus on squeezing your lateral delt to move the weight,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #2,Back,Wide-Grip Pull-Up,Wide-Grip Lat Pulldown,Machine Pulldown,Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #2,Back,Close-Grip Seated Cable Row,T-Bar Row,Incline Chest-Supported DB Row,"Focus on squeezing your shoulder blades together, drive your elbows down and back.",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #2,Traps,Machine Shrug,Cable Shrug-In,DB Shrug,Shrug up and in. Pull your shoulders up to your ears.,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #2,Biceps,Alternating DB Curl,EZ Bar Curl,Cable Curl,"Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm.",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Pull #2,Biceps,1-Arm DB Preacher Curl,Spider Curl,Bayesian Cable Curl,"Here, do all 6-8 reps with one arm at a time (do not alternate)",,0,0,1,1,1,10,10,,,6,8,,FALSE,FALSE
+8,0,Legs #2,Quads,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Can pull sumo or conventional, go with whatever variation you are stronger with",,3,5,3,4,2,8,9,,,4,6,,FALSE,FALSE
+8,0,Legs #2,Quads,Dumbbell Walking Lunge,DB Step-Up,Goblet Squat,Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Legs #2,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+8,0,Legs #2,Calves,Standing Calf Raise,Seated Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+8,0,Legs #2,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+9,0,Push #1,Pectorals,High-Incline Smith Machine Press,Incline DB Press,Incline Machine Press,"Set the bench at a 45-60° incline, touch the bar to your upper chest with control",,3,4,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Push #1,Shoulders,Egyptian Cable Lateral Raise,DB Lateral Raise,Machine Lateral Raise,Lean away from the cable. Focus on squeezing your delts.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Push #1,Triceps,Overhead Cable Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Push #1,Triceps,Cable Triceps Kickback,DB Triceps Kickback,Triceps Pressdown,"Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)",,2,3,1,1,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Pull #1,Back,Neutral-Grip Lat Pulldown,Neutral-Grip Pull-Up,Machine Pulldown,Pull your elbows down against your sides,,3,4,3,3,3,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #1,Back,Pendlay Row,Meadows Row,Single-Arm Row,"Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #1,Biceps,Hammer Cheat Curl,Inverse Zottman Curl,DB Curl,"You can use slight momentum on the concentric, but control the eccentric with your elbows stationary",,0,0,1,1,1,10,10,,,4,6,,FALSE,FALSE
+9,0,Legs #1,Quads,Squat or Machine Squat,Machine Squat,Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+9,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Legs #1,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Legs #1,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Legs #1,Abs,Cable Crunch,Plate-Weighted Crunch,Machine Crunch,Round your back as you crunch,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Push #2,Shoulders,Seated DB Shoulder Press,Machine Shoulder Press,Standing DB Arnold Press,"Bring the dumbbells all the way down, keep your torso upright",,3,4,3,3,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Push #2,Pectorals,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Push #2,Shoulders,Machine Lateral Raise,DB Lateral Raise,Cable Lateral Raise,Focus on squeezing your lateral delt to move the weight,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #2,Back,Wide-Grip Pull-Up,Wide-Grip Lat Pulldown,Machine Pulldown,Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #2,Back,Close-Grip Seated Cable Row,T-Bar Row,Incline Chest-Supported DB Row,"Focus on squeezing your shoulder blades together, drive your elbows down and back.",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #2,Traps,Machine Shrug,Cable Shrug-In,DB Shrug,Shrug up and in. Pull your shoulders up to your ears.,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #2,Biceps,Alternating DB Curl,EZ Bar Curl,Cable Curl,"Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm.",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Pull #2,Biceps,1-Arm DB Preacher Curl,Spider Curl,Bayesian Cable Curl,"Here, do all 6-8 reps with one arm at a time (do not alternate)",,0,0,1,1,1,10,10,,,6,8,,FALSE,FALSE
+9,0,Legs #2,Quads,Hack Squat,Machine Squat,Bulgarian Split Squat,"Allow your knees to come forward (past your toes), focus the tension on your quads",,3,5,3,4,2,9,10,,,4,6,,FALSE,FALSE
+9,0,Legs #2,Quads,Dumbbell Walking Lunge,DB Step-Up,Goblet Squat,Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Legs #2,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+9,0,Legs #2,Calves,Standing Calf Raise,Seated Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+9,0,Legs #2,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Push #1,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+10,0,Push #1,Pectorals,High-Incline Smith Machine Press,Incline DB Press,Incline Machine Press,"Set the bench at a 45-60 degree incline, touch the bar to your upper chest with control",,3,4,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Push #1,Shoulders,Egyptian Cable Lateral Raise,DB Lateral Raise,Machine Lateral Raise,Lean away from the cable. Focus on squeezing your delts.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Push #1,Triceps,Overhead Cable Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Push #1,Triceps,Cable Triceps Kickback,DB Triceps Kickback,Triceps Pressdown,"Lean slightly forward, lock your elbow behind your torso (shoulder hyperextension)",,2,3,1,1,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Pull #1,Back,Neutral-Grip Lat Pulldown,Neutral-Grip Pull-Up,Machine Pulldown,Pull your elbows down against your sides,,3,4,3,3,3,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #1,Back,Pendlay Row,Meadows Row,Single-Arm Row,"Initiate the movement by squeezing your shoulder blades together, pull to your lower chest, avoid using momentum",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Pull #1,Biceps,EZ-Bar Curl,DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #1,Biceps,Hammer Cheat Curl,Inverse Zottman Curl,DB Curl,"You can use slight momentum on the concentric, but control the eccentric with your elbows stationary",,0,0,1,1,1,10,10,,,4,6,,FALSE,FALSE
+10,0,Legs #1,Quads,Squat or Machine Squat,Machine Squat,Bulgarian Split Squat,"Sit back and down, keep your upper back tight to the bar",,3,5,3,4,1,8,9,,,3,5,,FALSE,FALSE
+10,0,Legs #1,Hamstrings,Barbell RDL,DB RDL,45° Hyperextension,"Maintain a neutral lower back, set your hips back, don't allow your spine to round",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Legs #1,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move.,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Legs #1,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Legs #1,Abs,Cable Crunch,Plate-Weighted Crunch,Machine Crunch,Round your back as you crunch,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Push #2,Shoulders,Seated DB Shoulder Press,Machine Shoulder Press,Standing DB Arnold Press,"Bring the dumbbells all the way down, keep your torso upright",,3,4,3,3,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Push #2,Pectorals,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Push #2,Shoulders,Machine Lateral Raise,DB Lateral Raise,Cable Lateral Raise,Focus on squeezing your lateral delt to move the weight,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #2,Back,Wide-Grip Pull-Up,Wide-Grip Lat Pulldown,Machine Pulldown,Use ~1.5x shoulder width grip. Add weight or use assistance as needed to hit RPE. Keep form as consistent as possible.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #2,Back,Close-Grip Seated Cable Row,T-Bar Row,Incline Chest-Supported DB Row,"Focus on squeezing your shoulder blades together, drive your elbows down and back.",,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #2,Traps,Machine Shrug,Cable Shrug-In,DB Shrug,Shrug up and in. Pull your shoulders up to your ears.,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #2,Biceps,Alternating DB Curl,EZ Bar Curl,Cable Curl,"Alternate arms with each curl: do 1 rep with your right arm, one rep with your left arm. Repeat until you reach 4-6 reps with each arm.",,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Pull #2,Biceps,1-Arm DB Preacher Curl,Spider Curl,Bayesian Cable Curl,"Here, do all 6-8 reps with one arm at a time (do not alternate)",,0,0,1,1,1,10,10,,,6,8,,FALSE,FALSE
+10,0,Legs #2,Quads,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Can pull sumo or conventional, go with whatever variation you are stronger with",,3,5,3,4,2,8,9,,,4,6,,FALSE,FALSE
+10,0,Legs #2,Quads,Dumbbell Walking Lunge,DB Step-Up,Goblet Squat,Do 4-6 reps with each leg (10-12 total strides). Straps may be helpful if your grip becomes limiting.,,3,4,3,3,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Legs #2,Hamstrings,Seated Leg Curl,Lying Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to move the weight,,2,3,2,2,2,10,10,,,4,6,,FALSE,FALSE
+10,0,Legs #2,Calves,Standing Calf Raise,Seated Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+10,0,Legs #2,Abs,Decline Plate-Weighted Crunch,Cable Crunch,Machine Crunch,Hold a plate or DB to your chest and crunch hard!,,2,3,2,2,2,10,10,,,6,8,,FALSE,FALSE
+11,0,Push #1,Pectorals,Low Incline DB Press,Low Incline Machine Press,Low Incline Smith Machine Press,"15° bench angle, tuck your elbows on the negative, flare as you press",,2,3,2,2,3,9,9,,,20,20,,FALSE,FALSE
+11,0,Push #1,Shoulders,Machine Shoulder Press,DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,9,9,,,15,15,,FALSE,FALSE
+11,0,Push #1,Pectorals,Cable Crossover Ladder,Flat-To-Incline DB Flye,Pec Deck,"Do one set with low cable position, one set with medium-height cable position, and one height with a high cable position",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Push #1,Shoulders,A1: Lean-In Constant Tension DB Lateral Raise,Constant-Tension Cable Lateral Raise,Constant-Tension Machine Lateral Raise,Lean into a bench and do lateral raises. Keep tension - don't rest your arm against your side at the bottom.,,0,0,1,1,3,10,10,,,15,15,,FALSE,FALSE
+11,0,Push #1,Shoulders,A2: Side Delt Static Stretch (30s),,,Hold a side delt stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,3,,,,,,,30,FALSE,TRUE
+11,0,Push #1,Triceps,Overhead Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Push #1,Triceps,Med-Ball Close Grip Push Up,Close-Grip Push Up,Kneeling Modified Push Up,"Place your hands on a medicine ball and do smooth, controlled pushups",,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+11,0,Pull #1,Back,1-Arm Half Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,2,9,9,,,20,20,,FALSE,FALSE
+11,0,Pull #1,Back,Omni-Grip Lat Pulldown,Omni-Grip Pull-Up,Chin-Up,"One set wide grip (overhand), 1 set middle grip (overhand), 1 set close grip (underhand)",,2,3,1,1,3,9,9,,,20,20,,FALSE,FALSE
+11,0,Pull #1,Back,Machine Low Row,Helms Row,Incline Chest-Supported DB Row,Focus on squeezing your shoulder blades together on each rep,,2,3,2,2,4,9,9,,,20,20,,FALSE,FALSE
+11,0,Pull #1,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Pull #1,Biceps,EZ-Bar Curl (Heavy),DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,1,2,2,2,1,9,9,,,4,6,,FALSE,FALSE
+11,0,Pull #1,Biceps,A1: EZ-Bar Modified Bicep 21's,DB Curl 21's,Cable Curl 21's,"7 reps seated, 7 reps standing full ROM, 7 reps bottom-half curls",,0,0,0,0,2,10,10,,,21,21,,FALSE,FALSE
+11,0,Pull #1,Biceps,A2: Bicep Static Stretch (30s),,,Hold a bicep stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+11,0,Legs #1,Quads,Front Squat,High-Bar Box Squat,Goblet Squat,"These will be challenging, let's push! Don't go so heavy that you miss reps. Be humble with your weight and focus on keeping your torso upright",,2,3,2,3,3,7,8,,,15,15,,FALSE,FALSE
+11,0,Legs #1,Hamstrings,Dumbbell RDL,Barbell RDL,45° Hyperextension,"Emphasize the stretch in your hamstrings, prevent your lower back from rounding",,2,3,1,1,3,9,9,,,20,20,,FALSE,FALSE
+11,0,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,3,9,9,,,10,10,,FALSE,FALSE
+11,0,Legs #1,Hamstrings,"Slow Seated Leg Curl (3 up, 3 down)",Lying Leg Curl,Nordic Ham Curl,Lift with a slow tempo. The positive should take 3 seconds and the negative should take 3 seconds.,,1,2,1,1,3,10,10,,,8,8,,FALSE,FALSE
+11,0,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Legs #1,Abs,LLPT Plank,Ab Wheel Rollout,Plank,Contract your glutes and position your elbows under your eyes to make the plank more difficult,,1,2,0,0,2,10,10,,,,,30,FALSE,FALSE
+11,0,Push #2,Pectorals,Bench Press (Top Set),DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+11,0,Push #2,Pectorals,Bench Press (Back Off AMRAP),DB Bench Press,Machine Chest Press,Use ~60% of the weight you used on your top set and do it for as many reps as possible. You should be in the range of 10-20+ reps on this set! Use a spotter and safety bars!,,3,4,0,0,1,10,10,,,,,,TRUE,FALSE
+11,0,Push #2,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,9,9,,,15,15,,FALSE,FALSE
+11,0,Push #2,Triceps,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,2,3,1,1,3,10,10,,,15,20,,FALSE,FALSE
+11,0,Push #2,Shoulders,Machine Lateral Raise (+ Myoreps),DB Lateral Raise (+ Myoreps),Cable Lateral Raise (+ Myoreps),"On the last set only, perform myoreps: After reaching failure at 12-15 reps, pause for ~5 seconds and do another 4 reps. Then pause for ~5 seconds again and do another 4 reps. Repeat until you can't complete 4 reps.",,1,2,1,1,3,10,10,,,12,15,,FALSE,FALSE
+11,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Push #2,Triceps,1-Arm Bottom-Half Overhead Cable Tricep Extensions,DB Bottom-Half Skull Crusher,EZ Bar Bottom-Half Skull Crusher,"Do overhead cable tricep extensions, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,3,10,10,,,20,30,,FALSE,FALSE
+11,0,Pull #2,Back,Pull-Up,Lat Pulldown,Machine Pulldown,"6 cluster sets: 3 reps, rest 15s, repeat 6x. Keep form smooth and controlled.",,0.25,0.25,2,2,6,7,8,,,3,3,,FALSE,FALSE
+11,0,Pull #2,Back,Wide-Grip Cable Row,Wide-Grip Machine Row,Wide-Grip T-Bar Row,"10 cluster sets: 3 reps, rest 15s, repeat 10x. Keep form tight.",,0.25,0.25,2,2,10,7,8,,,3,3,,FALSE,FALSE
+11,0,Pull #2,Back,"SLOW Barbell Row (3 up, 3 down)",SLOW DB Row,SLOW Machine Row,"Use a 3 second positive and a 3 second negative. ""Feel"" your back working, be humble with the weight you use",,2,3,1,1,3,7,8,,,6,6,,FALSE,FALSE
+11,0,Pull #2,Biceps,Bayesian Cable Curl,DB Incline Curl,DB Curl,"Keep your elbow behind your torso throughout the range of motion, focus on squeezing your bicep. Sets are per arm",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Pull #2,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,3,10,10,,,15,15,,FALSE,FALSE
+11,0,Pull #2,Rear delts,Rope Facepull,Reverse Pec Deck,Bent-Over Reverse DB Flye,"Pull your elbows up and out, squeeze your shoulder blades together",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,4,3,4,2,9,9,,,8,8,,FALSE,FALSE
+11,0,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,2,9,9,,,20,20,,FALSE,FALSE
+11,0,Legs #2,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move,,1,2,1,1,5,10,10,,,20,20,,FALSE,FALSE
+11,0,Legs #2,Hamstrings,Lying Leg Curl,Seated Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to make the weight move,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+11,0,Legs #2,Abs,Corpse Crunch,Plate-Weighted Crunch,Cable Crunch,"Clear your upper back off the floor when you crunch, hold for 1-2 seconds and then go back down. Don't yank with your neck.",,1,2,0,0,2,10,10,,,20,20,,FALSE,FALSE
+12,0,Push #1,Pectorals,Low Incline DB Press,Low Incline Machine Press,Low Incline Smith Machine Press,"15° bench angle, tuck your elbows on the negative, flare as you press",,2,3,2,2,3,9,9,,,20,20,,FALSE,FALSE
+12,0,Push #1,Shoulders,Machine Shoulder Press,DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,3,9,9,,,15,15,,FALSE,FALSE
+12,0,Push #1,Pectorals,Cable Crossover Ladder,Flat-To-Incline DB Flye,Pec Deck,"Do one set with low cable position, one set with medium-height cable position, and one height with a high cable position",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Push #1,Shoulders,A1: Lean-In Constant Tension DB Lateral Raise,Constant-Tension Cable Lateral Raise,Constant-Tension Machine Lateral Raise,Lean into a bench and do lateral raises. Keep tension - don't rest your arm against your side at the bottom.,,0,0,1,1,3,10,10,,,15,15,,FALSE,FALSE
+12,0,Push #1,Shoulders,A2: Side Delt Static Stretch (30s),,,Hold a side delt stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,3,,,,,,,30,FALSE,TRUE
+12,0,Push #1,Triceps,Overhead Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Push #1,Triceps,Med-Ball Close Grip Push Up,Close-Grip Push Up,Kneeling Modified Push Up,"Place your hands on a medicine ball and do smooth, controlled pushups",,0,0,0,0,1,10,10,,,,,,TRUE,FALSE
+12,0,Pull #1,Back,1-Arm Half Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,2,9,9,,,20,20,,FALSE,FALSE
+12,0,Pull #1,Back,Omni-Grip Lat Pulldown,Omni-Grip Pull-Up,Chin-Up,"One set wide grip (overhand), 1 set middle grip (overhand), 1 set close grip (underhand)",,2,3,1,1,3,9,9,,,20,20,,FALSE,FALSE
+12,0,Pull #1,Back,Machine Low Row,Helms Row,Incline Chest-Supported DB Row,Focus on squeezing your shoulder blades together on each rep,,2,3,2,2,4,9,9,,,20,20,,FALSE,FALSE
+12,0,Pull #1,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Pull #1,Biceps,EZ-Bar Curl (Heavy),DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,1,2,2,2,1,9,9,,,4,6,,FALSE,FALSE
+12,0,Pull #1,Biceps,A1: EZ-Bar Modified Bicep 21's,DB Curl 21's,Cable Curl 21's,"7 reps seated, 7 reps standing full ROM, 7 reps bottom-half curls",,0,0,0,0,2,10,10,,,21,21,,FALSE,FALSE
+12,0,Pull #1,Biceps,A2: Bicep Static Stretch (30s),,,Hold a bicep stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+12,0,Legs #1,Quads,Front Squat,High-Bar Box Squat,Goblet Squat,"These will be challenging, let's push! Don't go so heavy that you miss reps. Be humble with your weight and focus on keeping your torso upright",,2,3,2,3,3,7,8,,,15,15,,FALSE,FALSE
+12,0,Legs #1,Hamstrings,Dumbbell RDL,Barbell RDL,45° Hyperextension,"Emphasize the stretch in your hamstrings, prevent your lower back from rounding",,2,3,1,1,3,9,9,,,20,20,,FALSE,FALSE
+12,0,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,3,9,9,,,10,10,,FALSE,FALSE
+12,0,Legs #1,Hamstrings,"Slow Seated Leg Curl (3 up, 3 down)",Lying Leg Curl,Nordic Ham Curl,Lift with a slow tempo. The positive should take 3 seconds and the negative should take 3 seconds.,,1,2,1,1,3,10,10,,,8,8,,FALSE,FALSE
+12,0,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Legs #1,Abs,LLPT Plank,Ab Wheel Rollout,Plank,Contract your glutes and position your elbows under your eyes to make the plank more difficult,,1,2,0,0,2,10,10,,,,,30,FALSE,FALSE
+12,0,Push #2,Pectorals,Bench Press (Top Set),DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,8,9,,,2,4,,FALSE,FALSE
+12,0,Push #2,Pectorals,Bench Press (Back Off AMRAP),DB Bench Press,Machine Chest Press,Use ~60% of the weight you used on your top set and do it for as many reps as possible. You should be in the range of 10-20+ reps on this set! Use a spotter and safety bars!,,3,4,0,0,1,10,10,,,,,,TRUE,FALSE
+12,0,Push #2,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,3,9,9,,,15,15,,FALSE,FALSE
+12,0,Push #2,Triceps,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,2,3,1,1,3,10,10,,,15,20,,FALSE,FALSE
+12,0,Push #2,Shoulders,Machine Lateral Raise (+ Myoreps),DB Lateral Raise (+ Myoreps),Cable Lateral Raise (+ Myoreps),"On the last set only, perform myoreps: After reaching failure at 12-15 reps, pause for ~5 seconds and do another 4 reps. Then pause for ~5 seconds again and do another 4 reps. Repeat until you can't complete 4 reps.",,1,2,1,1,3,10,10,,,12,15,,FALSE,FALSE
+12,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Push #2,Triceps,1-Arm Bottom-Half Overhead Cable Tricep Extensions,DB Bottom-Half Skull Crusher,EZ Bar Bottom-Half Skull Crusher,"Do overhead cable tricep extensions, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,3,10,10,,,20,30,,FALSE,FALSE
+12,0,Pull #2,Back,Pull-Up,Lat Pulldown,Machine Pulldown,"6 cluster sets: 3 reps, rest 15s, repeat 6x. Keep form smooth and controlled.",,0.25,0.25,2,2,6,7,8,,,3,3,,FALSE,FALSE
+12,0,Pull #2,Back,Wide-Grip Cable Row,Wide-Grip Machine Row,Wide-Grip T-Bar Row,"10 cluster sets: 3 reps, rest 15s, repeat 10x. Keep form tight.",,0.25,0.25,2,2,10,7,8,,,3,3,,FALSE,FALSE
+12,0,Pull #2,Back,"SLOW Barbell Row (3 up, 3 down)",SLOW DB Row,SLOW Machine Row,"Use a 3 second positive and a 3 second negative. ""Feel"" your back working, be humble with the weight you use",,2,3,1,1,3,7,8,,,6,6,,FALSE,FALSE
+12,0,Pull #2,Biceps,Bayesian Cable Curl,DB Incline Curl,DB Curl,"Keep your elbow behind your torso throughout the range of motion, focus on squeezing your bicep. Sets are per arm",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Pull #2,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,3,10,10,,,15,15,,FALSE,FALSE
+12,0,Pull #2,Rear delts,Rope Facepull,Reverse Pec Deck,Bent-Over Reverse DB Flye,"Pull your elbows up and out, squeeze your shoulder blades together",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,4,3,4,2,9,9,,,8,8,,FALSE,FALSE
+12,0,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,2,9,9,,,20,20,,FALSE,FALSE
+12,0,Legs #2,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move,,1,2,1,1,5,10,10,,,20,20,,FALSE,FALSE
+12,0,Legs #2,Hamstrings,Lying Leg Curl,Seated Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to make the weight move,,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,3,10,10,,,20,20,,FALSE,FALSE
+12,0,Legs #2,Abs,Corpse Crunch,Plate-Weighted Crunch,Cable Crunch,"Clear your upper back off the floor when you crunch, hold for 1-2 seconds and then go back down. Don't yank with your neck.",,1,2,0,0,2,10,10,,,20,20,,FALSE,FALSE
+13,0,Push #1,Pectorals,Low Incline DB Press,Low Incline Machine Press,Low Incline Smith Machine Press,"15° bench angle, tuck your elbows on the negative, flare as you press",,2,3,2,2,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Push #1,Shoulders,Machine Shoulder Press,DB Shoulder Press,Standing DB Arnold Press,"Don't stop in between reps, keep smooth and controlled tension on the delts",,2,3,2,2,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Push #1,Pectorals,Cable Crossover Ladder,Flat-To-Incline DB Flye,Pec Deck,"Do one set with low cable position, one set with medium-height cable position, and one height with a high cable position",,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Push #1,Shoulders,A1: Lean-In Constant Tension DB Lateral Raise,Constant-Tension Cable Lateral Raise,Constant-Tension Machine Lateral Raise,Lean into a bench and do lateral raises. Keep tension - don't rest your arm against your side at the bottom.,,0,0,1,1,2,7,7,,,12,12,,FALSE,FALSE
+13,0,Push #1,Shoulders,A2: Side Delt Static Stretch (30s),,,Hold a side delt stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,2,,,,,,,30,FALSE,TRUE
+13,0,Push #1,Triceps,Overhead Triceps Extension,DB Floor Skull Crusher,DB French Press,"Do both arms at once, resist the negative",,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Push #1,Triceps,Med-Ball Close Grip Push Up,Close-Grip Push Up,Kneeling Modified Push Up,"Place your hands on a medicine ball and do smooth, controlled pushups",,0,0,0,0,1,7,7,,,,,,TRUE,FALSE
+13,0,Pull #1,Back,1-Arm Half Kneeling Lat Pulldown,1-Arm Lat Pull-In,Cable Lat Pullover,"Keep chest tall, keep elbow tucked in close to your torso, focus on squeezing your lat to move the weight",,1,2,1,1,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Pull #1,Back,Omni-Grip Lat Pulldown,Omni-Grip Pull-Up,Chin-Up,"One set wide grip (overhand), 1 set middle grip (overhand), 1 set close grip (underhand)",,2,3,1,1,3,6,6,,,12,12,,FALSE,FALSE
+13,0,Pull #1,Back,Machine Low Row,Helms Row,Incline Chest-Supported DB Row,Focus on squeezing your shoulder blades together on each rep,,2,3,2,2,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Pull #1,Traps,Cable Shrug-In,DB Shrug,Plate Shrug,Set up two cable handles low and shrug up and in. Squeeze your upper traps to move the weight.,,1,2,1,1,2,7,7,,,12,12,,FALSE,FALSE
+13,0,Pull #1,Rear delts,Reverse Pec Deck,Reverse Cable Flye,Bent-Over Reverse DB Flye,"Swing the weight ""out"", not ""back""",,1,2,1,1,2,7,7,,,12,12,,FALSE,FALSE
+13,0,Pull #1,Biceps,EZ-Bar Curl (Heavy),DB Curl,Cable Curl,"Arc the bar ""out"" not ""up"", focus on squeezing your biceps",,1,2,2,2,1,7,7,,,4,6,,FALSE,FALSE
+13,0,Pull #1,Biceps,A1: EZ-Bar Modified Bicep 21's,DB Curl 21's,Cable Curl 21's,"7 reps seated, 7 reps standing full ROM, 7 reps bottom-half curls",,0,0,0,0,1,7,7,,,21,21,,FALSE,FALSE
+13,0,Pull #1,Biceps,A2: Bicep Static Stretch (30s),,,Hold a bicep stretch for 30 seconds. The stretch should be held at about a 7/10 intensity.,,0,0,0,0,1,,,,,,,30,FALSE,TRUE
+13,0,Legs #1,Quads,Front Squat,High-Bar Box Squat,Goblet Squat,"Stay light, keep your torso upright",,2,3,2,3,2,6,6,,,10,10,,FALSE,FALSE
+13,0,Legs #1,Hamstrings,Dumbbell RDL,Barbell RDL,45° Hyperextension,"Emphasize the stretch in your hamstrings, prevent your lower back from rounding",,2,3,1,1,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Legs #1,Quads,Walking Lunge,DB Step-Up,Goblet Squat,"Take medium strides, minimize the amount you push off your rear leg",,2,3,1,1,2,6,6,,,8,8,,FALSE,FALSE
+13,0,Legs #1,Hamstrings,"Slow Seated Leg Curl (3 up, 3 down)",Lying Leg Curl,Nordic Ham Curl,Lift with a slow tempo. The positive should take 3 seconds and the negative should take 3 seconds.,,1,2,1,1,2,7,7,,,8,8,,FALSE,FALSE
+13,0,Legs #1,Calves,Leg Press Toe Press,Seated Calf Raise,Standing Calf Raise,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,2,7,7,,,12,12,,FALSE,FALSE
+13,0,Legs #1,Abs,LLPT Plank,Ab Wheel Rollout,Plank,Contract your glutes and position your elbows under your eyes to make the plank more difficult,,1,2,0,0,1,7,7,,,,,30,FALSE,FALSE
+13,0,Push #2,Pectorals,Bench Press,DB Bench Press,Machine Chest Press,"Set up a comfortable arch, quick pause on the chest and explode up on each rep",,3,4,3,4,1,6,6,,,2,4,,FALSE,FALSE
+13,0,Push #2,Shoulders,Standing Dumbbell Arnold Press,Seated DB Shoulder Press,Machine Shoulder Press,Start with your elbows in front of you and palms facing in. Rotate the dumbbells so that your palms face forward as you press.,,2,3,2,2,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Push #2,Triceps,Weighted Dip,Machine Chest Press,DB Bench Press,"Tuck your elbows at 45°, lean your torso forward 15°, shoulder width or slightly wider grip",,2,3,1,1,2,6,6,,,12,12,,FALSE,FALSE
+13,0,Push #2,Shoulders,Machine Lateral Raise (+ Myoreps),DB Lateral Raise (+ Myoreps),Cable Lateral Raise (+ Myoreps),"On the last set only, perform myoreps: After reaching failure at 12-15 reps, pause for ~5 seconds and do another 4 reps. Then pause for ~5 seconds again and do another 4 reps. Repeat until you can't complete 4 reps.",,1,2,1,1,2,7,7,,,12,15,,FALSE,FALSE
+13,0,Push #2,Triceps,Triceps Pressdown,Cable Triceps Kickback,DB Triceps Kickback,Focus on squeezing your triceps to move the weight,,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Push #2,Triceps,1-Arm Bottom-Half Overhead Cable Tricep Extensions,DB Bottom-Half Skull Crusher,EZ Bar Bottom-Half Skull Crusher,"Do overhead cable tricep extensions, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,7,7,,,15,20,,FALSE,FALSE
+13,0,Pull #2,Back,Pull-Up,Lat Pulldown,Machine Pulldown,"4 cluster sets: 3 reps, rest 15s, repeat 4x. Keep form smooth and controlled.",,0.25,0.25,2,2,4,6,6,,,3,3,,FALSE,FALSE
+13,0,Pull #2,Back,Wide-Grip Cable Row,Wide-Grip Machine Row,Wide-Grip T-Bar Row,"6 cluster sets: 3 reps, rest 15s, repeat 6x. Keep form tight.",,0.25,0.25,2,2,6,6,6,,,3,3,,FALSE,FALSE
+13,0,Pull #2,Back,"SLOW Barbell Row (3 up, 3 down)",SLOW DB Row,SLOW Machine Row,"Use a 3 second positive and a 3 second negative. ""Feel"" your back working, be humble with the weight you use",,2,3,1,1,2,6,6,,,6,6,,FALSE,FALSE
+13,0,Pull #2,Back,Bayesian Cable Curl,DB Incline Curl,DB Curl,"Keep your elbow behind your torso throughout the range of motion, focus on squeezing your bicep. Sets are per arm",,1,2,1,1,2,7,7,,,12,12,,FALSE,FALSE
+13,0,Pull #2,Biceps,Bottom-Half Preacher Curl,Bottom-Half Spider Curl,Bottom-Half Bayesian Curl,"Do preacher curls, but cut out the top half of the ROM (stay entirely in the stretched aspect of the lift)",,1,2,0,0,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Pull #2,Biceps,Rope Facepull,Reverse Pec Deck,Bent-Over Reverse DB Flye,"Pull your elbows up and out, squeeze your shoulder blades together",,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Legs #2,Hamstrings,Deadlift,Trap Bar Deadlift,Barbell Hip Thrust,"Brace your lats, chest tall, pull the slack out of the bar before lifting",,3,4,3,4,1,6,6,,,8,8,,FALSE,FALSE
+13,0,Legs #2,Quads,Leg Press,Goblet Squat,Walking Lunge,"Medium width feet placement on the platform, don't allow your lower back to round",,2,3,2,3,1,6,6,,,12,12,,FALSE,FALSE
+13,0,Legs #2,Quads,Leg Extension,DB Step-Up,Goblet Squat,Focus on squeezing your quads to make the weight move,,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Legs #2,Hamstrings,Lying Leg Curl,Seated Leg Curl,Nordic Ham Curl,Focus on squeezing your hamstrings to make the weight move,,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Legs #2,Calves,Seated Calf Raise,Standing Calf Raise,Leg Press Toe Press,"Press all the way up to your toes, stretch your calves at the bottom, don't bounce",,1,2,1,1,2,7,7,,,15,15,,FALSE,FALSE
+13,0,Legs #2,Abs,Corpse Crunch,Plate-Weighted Crunch,Cable Crunch,"Clear your upper back off the floor when you crunch, hold for 1-2 seconds and then go back down. Don't yank with your neck.",,1,2,0,0,1,7,7,,,15,15,,FALSE,FALSE
