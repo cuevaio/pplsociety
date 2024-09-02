@@ -20,7 +20,7 @@ export const ClientProviders = ({ children }: { children: ReactNode }) => {
         disableTransitionOnChange
       >
         <TooltipProvider>
-          {children}
+          <>{children}</>
           <Toaster />
         </TooltipProvider>
       </ThemeProvider>

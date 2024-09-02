@@ -110,7 +110,7 @@ export default async function AuthenticatedLayout({
           <div className="w-full max-w-sm">{children}</div>
           <div className="flex items-center justify-center">
             <p className="text-balance p-4 text-center text-xs text-white/50">
-              By continuing, you agree to Unkey's{' '}
+              By continuing, you agree to Unkey&#39;s{' '}
               <Link className="underline" href="/policies/terms">
                 Terms of Service
               </Link>{' '}

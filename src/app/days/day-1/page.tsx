@@ -20,7 +20,7 @@ const Page = async () => {
 
   return (
     <div>
-      Hi!
+      <h1 className="text-3xl font-black sm:text-5xl">{workouts[0].day}</h1>
       <div>
         {workouts.map((w, idx) => {
           const videoUrl = videos[w.exercise];
@@ -35,67 +35,12 @@ const Page = async () => {
           return (
             <div
               key={idx}
-              className="flex gap-8 px-4 py-12 odd:flex-row-reverse"
+              className="my-12 flex flex-col gap-4 sm:my-24 sm:flex-row sm:gap-8 sm:odd:flex-row-reverse"
             >
-              <div className="w-96 flex-none">
-                <a
-                  href={videoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative flex aspect-video w-full flex-none overflow-hidden rounded-lg border"
-                >
-                  <Image
-                    src={`https://img.youtube.com/vi/${videoUrl.slice(17, 28)}/sddefault.jpg`}
-                    alt="Youtube video"
-                    width={420}
-                    height={315}
-                    quality={100}
-                    className="z-0 -my-10"
-                  />
-                  <div className="group absolute inset-0 z-10 flex items-center justify-center transition-colors hover:bg-black/60">
-                    <PlayIcon
-                      className="size-12 opacity-0 transition-opacity group-hover:opacity-100"
-                      fill="currentColor"
-                    />
-                  </div>
-                </a>
-                <div className="mt-2 grid grid-cols-1 gap-1">
-                  {w.substitutionOption1 && sub1VideoUrl && (
-                    <div className="relative flex">
-                      <div className="flex w-24 flex-none items-center rounded-l bg-foreground px-2 font-semibold italic text-background">
-                        Option 1
-                      </div>
-                      <div className="flex grow items-center rounded-r border border-l-0 px-4 font-bold">
-                        {w.substitutionOption1}
-                      </div>
-                      <a
-                        href={sub1VideoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="absolute inset-0 z-10 text-transparent"
-                      ></a>
-                    </div>
-                  )}
-                  {w.substitutionOption2 && sub2VideoUrl && (
-                    <div className="relative flex">
-                      <div className="flex w-24 flex-none items-center rounded-l bg-foreground px-2 font-semibold italic text-background">
-                        Option 2
-                      </div>
-                      <div className="flex grow items-center rounded-r border border-l-0 px-4 font-bold">
-                        {w.substitutionOption2}
-                      </div>
-                      <a
-                        href={sub2VideoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="absolute inset-0 z-10 text-transparent"
-                      ></a>
-                    </div>
-                  )}
-                </div>
-              </div>
               <div className="grow">
-                <h2 className="text-4xl font-black">{w.exercise}</h2>
+                <h2 className="text-2xl font-black sm:text-4xl">
+                  {w.exercise}
+                </h2>
                 <p className="text-muted-foreground">{w.notes}</p>
 
                 <div>
@@ -104,7 +49,6 @@ const Page = async () => {
                     : `${w.minWarmUpSets} - ${w.maxWarmUpSets} warmup sets`}
                 </div>
 
-                
                 <div>
                   {w.maxRPE === w.minRPE
                     ? `${w.minRPE} RPE`
@@ -145,6 +89,65 @@ const Page = async () => {
                       </div>
                     </React.Fragment>
                   ))}
+                </div>
+              </div>
+              <div className="w-full flex-none sm:w-96">
+                <a
+                  href={videoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative flex aspect-video w-full flex-none overflow-hidden rounded-lg border"
+                >
+                  <Image
+                    src={`https://img.youtube.com/vi/${videoUrl.slice(17, 28)}/sddefault.jpg`}
+                    alt="Youtube video"
+                    width={420}
+                    height={315}
+                    quality={100}
+                    className="z-0 -my-10"
+                  />
+                  <div className="group absolute inset-0 z-10 flex items-center justify-center transition-colors hover:bg-black/60">
+                    <PlayIcon
+                      className="size-12 opacity-0 transition-opacity group-hover:opacity-100"
+                      fill="currentColor"
+                    />
+                  </div>
+                </a>
+                <div className="mt-2 grid grid-cols-1 gap-1">
+                  {w.substitutionOption1 && sub1VideoUrl && (
+                    <div className="relative flex">
+                      <div className="flex w-8 flex-none items-center justify-center rounded-l bg-foreground text-xs font-semibold italic text-background sm:w-24 sm:text-base">
+                        <span className="mr-2 hidden sm:flex">Option </span>
+                        <span className="flex sm:hidden">O</span>1
+                      </div>
+                      <div className="flex grow items-center rounded-r border border-l-0 px-4 text-xs font-bold sm:text-base">
+                        {w.substitutionOption1}
+                      </div>
+                      <a
+                        href={sub1VideoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute inset-0 z-10 text-transparent"
+                      ></a>
+                    </div>
+                  )}
+                  {w.substitutionOption2 && sub2VideoUrl && (
+                    <div className="relative flex">
+                      <div className="flex w-8 flex-none items-center justify-center rounded-l bg-foreground text-xs font-semibold italic text-background sm:w-24 sm:text-base">
+                        <span className="mr-2 hidden sm:flex">Option </span>
+                        <span className="flex sm:hidden">O</span>2
+                      </div>
+                      <div className="flex grow items-center rounded-r border border-l-0 px-4 text-xs font-bold sm:text-base">
+                        {w.substitutionOption2}
+                      </div>
+                      <a
+                        href={sub2VideoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute inset-0 z-10 text-transparent"
+                      ></a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

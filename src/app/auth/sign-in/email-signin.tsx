@@ -65,7 +65,7 @@ export function EmailSignIn(props: {
         identifier: email,
       })
       .then(async () => {
-        const firstFactor = signIn.supportedFirstFactors.find(
+        const firstFactor = signIn.supportedFirstFactors?.find(
           (f) => f.strategy === 'email_code',
         ) as { emailAddressId: string } | undefined;
 

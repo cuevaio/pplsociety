@@ -77,7 +77,7 @@ export const EmailCode: React.FC<Props> = ({ setError }) => {
       </p>
 
       <p className="mt-2 text-sm text-white/40">
-        Didn't receive the code?{' '}
+        Didn&#39;t receive the code?{' '}
         <Button type="button" className="text-white" onClick={resendCode}>
           Resend
         </Button>
