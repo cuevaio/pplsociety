@@ -3,20 +3,18 @@ import Image from 'next/image';
 
 import { PlayIcon } from 'lucide-react';
 
+import plan from '@/db/plan.json';
 import vids from '@/db/videos.json';
 
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-
-import { readWorkoutCsv } from '@/lib/getWorkout';
 
 const videos = vids as {
   [key: string]: string;
 };
 
 const Page = async () => {
-  const allWorkouts = await readWorkoutCsv(process.cwd() + '/src/db/plan.csv');
-  const workouts = allWorkouts.filter((w) => w.day_id === 3);
+  const workouts = plan.filter((w) => w.day_id === 3);
 
   return (
     <div>
