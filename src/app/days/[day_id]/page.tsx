@@ -9,12 +9,50 @@ import vids from '@/db/videos.json';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 
+// Next.js will invalidate the cache when a
+// request comes in, at most once every 60 seconds.
+export const revalidate = 60;
+
+// We'll prerender only the params from `generateStaticParams` at build time.
+// If a request comes in for a path that hasn't been generated,
+// Next.js will server-render the page on-demand.
+export const dynamicParams = true; // or false, to 404 on unknown paths
+
+export async function generateStaticParams() {
+  return Array.from(Array(78).keys()).map((x) => ({
+    day_id: (x + 1).toString(),
+  }));
+}
+
 const videos = vids as {
   [key: string]: string;
 };
 
-const Page = async () => {
-  const workouts = plan.filter((w) => w.day_id === 3);
+function parseRange(min: number | null, max: number | null, unit?: string) {
+  let base = '';
+  if (min === null || max === null) {
+    return undefined;
+  } else if (min === max) {
+    base = min.toString();
+  } else {
+    base = `${min} - ${max}`;
+  }
+
+  if (unit) {
+    base += ' ' + unit;
+  }
+
+  return base;
+}
+
+const Page = async ({
+  params,
+}: {
+  params: {
+    day_id: string;
+  };
+}) => {
+  const workouts = plan.filter((w) => w.day_id === parseInt(params.day_id));
 
   return (
     <div>
@@ -42,15 +80,7 @@ const Page = async () => {
                 <p className="text-muted-foreground">{w.notes}</p>
 
                 <div>
-                  {w.maxWarmUpSets === w.minWarmUpSets
-                    ? `${w.minWarmUpSets} warmup sets`
-                    : `${w.minWarmUpSets} - ${w.maxWarmUpSets} warmup sets`}
-                </div>
-
-                <div>
-                  {w.maxRPE === w.minRPE
-                    ? `${w.minRPE} RPE`
-                    : `${w.minRPE} - ${w.maxRPE} RPE`}
+                  {parseRange(w.minWarmUpSets, w.maxWarmUpSets, 'warmup sets')}
                 </div>
 
                 <div className="my-2 grid grid-cols-3 gap-4">
@@ -69,21 +99,22 @@ const Page = async () => {
                           )[`repsWorkingSet${x + 1}` as string] as
                             | string
                             | undefined) ||
-                          (w.minReps
-                            ? `${w.minReps} - ${w.maxReps}`
-                            : w.amrap
-                              ? 'AMRAP'
-                              : w.timeSeconds
-                                ? `${w.timeSeconds}s`
-                                : '')
+                          parseRange(w.minReps, w.maxReps) ||
+                          (w.amrap
+                            ? 'AMRAP'
+                            : w.timeSeconds
+                              ? `${w.timeSeconds}s`
+                              : '')
                         }
                       />
-                      <Input placeholder="RPE" />
+                      <Input placeholder={parseRange(w.minRPE, w.maxRPE)} />
 
                       <div className="col-span-3 text-center text-muted-foreground">
-                        {w.maxRestMinutes === w.minRestMinutes
-                          ? `${w.minRestMinutes} min rest`
-                          : `${w.minRestMinutes} - ${w.maxRestMinutes} min rest`}
+                        {parseRange(
+                          w.maxRestMinutes,
+                          w.minRestMinutes,
+                          'min rest',
+                        )}
                       </div>
                     </React.Fragment>
                   ))}
@@ -94,7 +125,7 @@ const Page = async () => {
                   href={videoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative flex aspect-video w-full flex-none overflow-hidden rounded-lg border"
+                  className="relative flex aspect-video w-full flex-none overflow-hidden rounded border"
                 >
                   <Image
                     src={`https://img.youtube.com/vi/${videoUrl.slice(17, 28)}/sddefault.jpg`}
@@ -115,7 +146,7 @@ const Page = async () => {
                   {w.substitutionOption1 && sub1VideoUrl && (
                     <div className="relative flex">
                       <div className="flex w-8 flex-none items-center justify-center rounded-l bg-foreground text-xs font-semibold italic text-background sm:w-24 sm:text-base">
-                        <span className="mr-2 hidden sm:flex">Option </span>
+                        <span className="mr-1 hidden sm:flex">Option</span>
                         <span className="flex sm:hidden">O</span>1
                       </div>
                       <div className="flex grow items-center rounded-r border border-l-0 px-4 text-xs font-bold sm:text-base">
@@ -132,7 +163,7 @@ const Page = async () => {
                   {w.substitutionOption2 && sub2VideoUrl && (
                     <div className="relative flex">
                       <div className="flex w-8 flex-none items-center justify-center rounded-l bg-foreground text-xs font-semibold italic text-background sm:w-24 sm:text-base">
-                        <span className="mr-2 hidden sm:flex">Option </span>
+                        <span className="mr-1 hidden sm:flex">Option</span>
                         <span className="flex sm:hidden">O</span>2
                       </div>
                       <div className="flex grow items-center rounded-r border border-l-0 px-4 text-xs font-bold sm:text-base">
