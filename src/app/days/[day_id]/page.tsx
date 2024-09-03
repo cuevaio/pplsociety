@@ -11,7 +11,7 @@ import { Label } from '@/components/ui/label';
 
 // Next.js will invalidate the cache when a
 // request comes in, at most once every 60 seconds.
-export const revalidate = 60;
+export const revalidate = 60000;
 
 // We'll prerender only the params from `generateStaticParams` at build time.
 // If a request comes in for a path that hasn't been generated,
